@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "tokens",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "receiveApproval",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/token.sol": "ApproveAndCallFallBack"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/token.sol": {
+			"keccak256": "0xd84bdd85f4af727c29165ba71020a0ccac9783a3e2eefc410705f9f71264b220",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://454d2f5e8c79259a1c17679c22ba48b79afc07bfc03a572b69875270ef149093",
+				"dweb:/ipfs/QmPRiYGoeJvZhJ13kHvE6nU6p66eiqJxHjUzk7WRsdtiDX"
+			]
+		}
+	},
+	"version": 1
+}
